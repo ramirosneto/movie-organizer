@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TVtitulo"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:text="Filme"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/IVstar"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/star"
+                android:layout_below="@id/TVtitulo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="duração"
+                android:id="@+id/TVrating"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_alignTop="@+id/IVstar"
+                android:layout_toRightOf="@+id/IVstar"
+                android:layout_toEndOf="@+id/IVstar"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="220dp"
+                android:id="@+id/IVposter"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/noposter"
+                android:layout_below="@id/IVstar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="duração"
+                android:id="@+id/TVduracao"
+                android:textStyle="bold"
+                android:layout_alignTop="@+id/IVposter"
+                android:layout_toRightOf="@+id/IVposter"
+                android:layout_toEndOf="@+id/IVposter"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="resumo"
+                android:id="@+id/TVdescricao"
+                android:layout_below="@id/TVduracao"
+                android:layout_toRightOf="@+id/IVposter"
+                android:layout_toEndOf="@+id/IVposter"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginStart="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="atores"
+                android:id="@+id/TVatores"
+                android:textStyle="italic"
+                android:layout_below="@id/TVdescricao"
+                android:layout_toRightOf="@+id/IVposter"
+                android:layout_toEndOf="@+id/IVposter"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginStart="10dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

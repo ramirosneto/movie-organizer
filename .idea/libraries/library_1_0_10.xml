@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.0.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library/1.0.10/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library/1.0.10/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.10/1daa2ab8c612cb2a7a099a5e47d3eed2adadb1d1/library-1.0.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
